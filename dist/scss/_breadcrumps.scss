@@ -1,0 +1,27 @@
+.breadcrumps {
+    margin-top: 40px;
+    .breadcrumps_list-item {
+        display: inline-flex;
+        padding-right: 16px;
+        margin-right: 10px;
+        position: relative;
+
+        a {
+            color: #C4C4C4;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            background-image: url('../images/icons/Back.svg');
+            width: 6px;
+            height: 9px;
+            bottom: 4px;
+        }
+
+        &:last-child::after {
+            display: none;
+        }
+    }
+}

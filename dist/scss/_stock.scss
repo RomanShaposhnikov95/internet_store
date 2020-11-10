@@ -1,0 +1,35 @@
+.stock {
+    margin-top: 86px;
+    cursor: pointer;
+    .blue-box {
+        width: 100%;
+        padding: 29px;
+        background-color: blue;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        .car {
+            img {
+                object-fit: cover;
+            }
+        }
+
+        .stock-title {
+            font-family: SF Pro Display;
+            font-size: 36px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .stock-btn {
+            width: 284px;
+            height: 57px;
+            background: #FFFFFF;
+            font-family: SF Pro Display;
+            font-size: 24px;
+
+        }
+    }
+}

@@ -1,0 +1,101 @@
+.review {
+    margin-top: 44px;
+    .content {
+        display: inline-flex;
+        .review_left {
+            width: 50%;
+            height: 579px;         
+            .block_img {
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    margin-top: 64px;
+                    object-fit: cover;
+                }
+                .price {
+                    margin-top: 17px;
+                    display: inline-flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .old_price {
+                        font-family: Barlow;
+                        font-size: 21px;
+                        font-weight: 700;
+                        color: grey;
+                        text-decoration: line-through;
+                    }
+
+                    .new_price {
+                        font-family: Barlow;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        color: black;
+                    }
+                }
+                a {
+                    margin-top: 17px;
+                    font-family: SF Pro Display;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #1C62CD;
+                    border-bottom: 1px solid;
+                }
+            }
+        }
+
+        .review_right {
+            width: 50%;
+
+            .product-title {
+                font-family: SF Pro Display;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+            }
+
+            .product-subtitle {
+                margin-bottom: 10px;
+                font-family: SF Pro Display;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                color: #2F3035;
+                border-bottom: 1px solid #2F3035;
+            }
+
+            .about {
+                width: 100%;
+                margin-top: 50px;
+                display: inline-flex;
+                flex-direction: column;
+                
+
+                .characteristics-title {
+                    font-family: SF Pro Display;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    color: #2F3035;
+                    border-bottom: 1px solid blue;
+                    margin-bottom: 20px;
+                }
+
+                .characteristics-box {
+                    display: inline-flex;
+                    border-bottom: 1px solid #2F3035;
+                    margin-bottom: 21px;
+                    div {
+                        width: 50%;
+                    }
+
+                    span {
+                        width: 50%;
+                    }
+
+                }
+            }
+        }
+    }
+}

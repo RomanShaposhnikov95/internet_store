@@ -1,0 +1,17 @@
+.tab-active {
+    font-weight: bold;
+}
+
+.tab-2-active {
+    border-bottom: 2px solid blue;
+}
+
+.content-active {
+    display: flex;
+}
+
+.like-active {
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/icons/like-blue.svg');
+}

@@ -1,0 +1,147 @@
+.promo {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 78px;
+
+    .promo_inner {
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    .slider {
+        max-width: 870px;
+
+        .slider-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin: 0;
+            z-index: 5;
+        }
+
+        .slider-btnprev {
+            left: 20px;
+        }
+        
+        .slider-btnnext {
+            right: 20px;
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        .slick-dots li {
+            display: inline-block;
+            padding: 0 5px;
+        }
+        
+        .slick-dots button {
+            font-size: 0;
+            width: 11px;
+            height: 11px;
+            border: 1px solid white;
+            border-radius: 50%;
+            background-color: transparent;
+        }
+        
+        .slick-active button{
+            background-color: white
+        }
+    }
+
+    .banner {
+        width: 265px;
+        border: 1px solid black;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+
+        .banner_top {
+            width: 100%;
+            display: inline-flex;
+            justify-content: space-between;
+            position: relative;
+
+            .sale_info::before {
+                content: "акция";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50px;
+                height: 20px;
+                padding: 8px 20px;
+                background: #1C62CD;
+                font-family: Proxima Nova;
+                font-size: 15px;
+                color: #ffffff;
+                text-align: center;
+                border-radius: 5px 0 0;
+            }
+
+            .price {
+                padding-right: 7px;
+                .new {
+                    font-family: Barlow;
+                    font-size: 27px;
+                    font-weight: 700;
+                    color: #1C62CD;
+                }
+
+                .old {
+                    font-family: Barlow;
+                    font-size: 14px;
+                    color: #C4C4C4;
+                    text-align: right;
+
+                }
+            }
+        }
+
+        img {
+            margin-top: 7px;
+        }
+
+        .title {
+            margin-top: 4px;
+            font-family: SF Pro Display;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            color: #2F3035;
+        }
+
+        .banner_bottom {
+            margin: 29px 0 0;
+            width: 100%;
+            display: flex;
+            padding: 26px 0;
+            background: #F0F0F4;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0 0 5px 5px;
+            p {
+                font-family: SF Pro Display;
+                font-size: 18px;
+                font-style: normal;
+                text-align: center;
+                color: #2F3035;
+
+                span {
+                    font-family: Barlow;
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #1C62CD;
+                }
+            }
+        }
+    }
+}

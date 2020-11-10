@@ -1,0 +1,103 @@
+.footer {
+    margin-top: 97px;
+    padding: 30px 0;
+    background-color: #F0F0F4;
+    .content {
+        .footer-top {
+            width: 100%;
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .footer-one {
+                .footer-text {
+                    font-family: SF Pro Display;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+                .footer-input {
+                    margin-top: 34px;
+                    display: inline-flex;
+                    input {
+                        padding: 10px;
+                        width: 201px;
+                        height: 33px;
+                        background: #ffff;
+                        font-family: SF Pro Display;
+                        font-size: 14px;
+                    }
+
+                    .send-btn {
+                        width: 109px;
+                        height: 33px;
+                        background-color: #1C62CD;
+                        color: #ffff;
+                        font-family: SF Pro Display;
+                        font-size: 11px;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: rgb(47, 120, 230);
+                        }
+                    }
+                }
+            }
+
+           .footer-block-list {
+               h1 {
+                font-family: SF Pro Display;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 17px;
+                letter-spacing: 0em;
+                text-align: left;
+               }
+               .footer-list {
+                margin-top: 10px;
+                    .footer-list-item {
+                        margin-top: 5px;
+                        a {
+                            font-family: Proxima Nova;
+                            font-size: 14px;
+                            color: #2F3035;
+                            &:hover {
+                                border-bottom: 1px solid #2F3035;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+               }
+           }
+
+            .social {
+                display: inline-flex;
+                flex-direction: row;
+                align-items: center;
+                .social-link {
+                    padding: 0 15px;
+                }
+            }
+            
+        }
+    
+        .footer-bottom {
+            width: 100%;
+            display: inline-flex;
+            justify-content: center;
+            margin-top: 46px;
+            div {
+                padding: 0 40px;
+                a {
+                    font-family: SF Pro Display;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #48494D;
+                    &:hover {
+                        border-bottom: 1px solid #2F3035;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
